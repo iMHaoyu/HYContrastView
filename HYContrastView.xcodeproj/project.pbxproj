@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2CAE5142187C82700432D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CAE5132187C82700432D27 /* AppDelegate.m */; };
+		D2CAE5172187C82700432D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CAE5162187C82700432D27 /* ViewController.m */; };
+		D2CAE51A2187C82700432D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CAE5182187C82700432D27 /* Main.storyboard */; };
+		D2CAE51C2187C82800432D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CAE51B2187C82800432D27 /* Assets.xcassets */; };
+		D2CAE51F2187C82800432D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CAE51D2187C82800432D27 /* LaunchScreen.storyboard */; };
+		D2CAE5222187C82800432D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CAE5212187C82800432D27 /* main.m */; };
+		D2CAE52C2187C82800432D27 /* HYContrastViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CAE52B2187C82800432D27 /* HYContrastViewTests.m */; };
+		D2CAE5372187C82800432D27 /* HYContrastViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CAE5362187C82800432D27 /* HYContrastViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2CAE5282187C82800432D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CAE5072187C82700432D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CAE50E2187C82700432D27;
+			remoteInfo = HYContrastView;
+		};
+		D2CAE5332187C82800432D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CAE5072187C82700432D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CAE50E2187C82700432D27;
+			remoteInfo = HYContrastView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2CAE50F2187C82700432D27 /* HYContrastView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYContrastView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CAE5122187C82700432D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2CAE5132187C82700432D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2CAE5152187C82700432D27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2CAE5162187C82700432D27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2CAE5192187C82700432D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2CAE51B2187C82800432D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2CAE51E2187C82800432D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2CAE5202187C82800432D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CAE5212187C82800432D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2CAE5272187C82800432D27 /* HYContrastViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYContrastViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CAE52B2187C82800432D27 /* HYContrastViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYContrastViewTests.m; sourceTree = "<group>"; };
+		D2CAE52D2187C82800432D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CAE5322187C82800432D27 /* HYContrastViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYContrastViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CAE5362187C82800432D27 /* HYContrastViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYContrastViewUITests.m; sourceTree = "<group>"; };
+		D2CAE5382187C82800432D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2CAE50C2187C82700432D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CAE5242187C82800432D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CAE52F2187C82800432D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2CAE5062187C82700432D27 = {
+			isa = PBXGroup;
+			children = (
+				D2CAE5112187C82700432D27 /* HYContrastView */,
+				D2CAE52A2187C82800432D27 /* HYContrastViewTests */,
+				D2CAE5352187C82800432D27 /* HYContrastViewUITests */,
+				D2CAE5102187C82700432D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2CAE5102187C82700432D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2CAE50F2187C82700432D27 /* HYContrastView.app */,
+				D2CAE5272187C82800432D27 /* HYContrastViewTests.xctest */,
+				D2CAE5322187C82800432D27 /* HYContrastViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2CAE5112187C82700432D27 /* HYContrastView */ = {
+			isa = PBXGroup;
+			children = (
+				D2CAE5122187C82700432D27 /* AppDelegate.h */,
+				D2CAE5132187C82700432D27 /* AppDelegate.m */,
+				D2CAE5152187C82700432D27 /* ViewController.h */,
+				D2CAE5162187C82700432D27 /* ViewController.m */,
+				D2CAE5182187C82700432D27 /* Main.storyboard */,
+				D2CAE51B2187C82800432D27 /* Assets.xcassets */,
+				D2CAE51D2187C82800432D27 /* LaunchScreen.storyboard */,
+				D2CAE5202187C82800432D27 /* Info.plist */,
+				D2CAE5212187C82800432D27 /* main.m */,
+			);
+			path = HYContrastView;
+			sourceTree = "<group>";
+		};
+		D2CAE52A2187C82800432D27 /* HYContrastViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CAE52B2187C82800432D27 /* HYContrastViewTests.m */,
+				D2CAE52D2187C82800432D27 /* Info.plist */,
+			);
+			path = HYContrastViewTests;
+			sourceTree = "<group>";
+		};
+		D2CAE5352187C82800432D27 /* HYContrastViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CAE5362187C82800432D27 /* HYContrastViewUITests.m */,
+				D2CAE5382187C82800432D27 /* Info.plist */,
+			);
+			path = HYContrastViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2CAE50E2187C82700432D27 /* HYContrastView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CAE53B2187C82800432D27 /* Build configuration list for PBXNativeTarget "HYContrastView" */;
+			buildPhases = (
+				D2CAE50B2187C82700432D27 /* Sources */,
+				D2CAE50C2187C82700432D27 /* Frameworks */,
+				D2CAE50D2187C82700432D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYContrastView;
+			productName = HYContrastView;
+			productReference = D2CAE50F2187C82700432D27 /* HYContrastView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2CAE5262187C82800432D27 /* HYContrastViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CAE53E2187C82800432D27 /* Build configuration list for PBXNativeTarget "HYContrastViewTests" */;
+			buildPhases = (
+				D2CAE5232187C82800432D27 /* Sources */,
+				D2CAE5242187C82800432D27 /* Frameworks */,
+				D2CAE5252187C82800432D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CAE5292187C82800432D27 /* PBXTargetDependency */,
+			);
+			name = HYContrastViewTests;
+			productName = HYContrastViewTests;
+			productReference = D2CAE5272187C82800432D27 /* HYContrastViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2CAE5312187C82800432D27 /* HYContrastViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CAE5412187C82800432D27 /* Build configuration list for PBXNativeTarget "HYContrastViewUITests" */;
+			buildPhases = (
+				D2CAE52E2187C82800432D27 /* Sources */,
+				D2CAE52F2187C82800432D27 /* Frameworks */,
+				D2CAE5302187C82800432D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CAE5342187C82800432D27 /* PBXTargetDependency */,
+			);
+			name = HYContrastViewUITests;
+			productName = HYContrastViewUITests;
+			productReference = D2CAE5322187C82800432D27 /* HYContrastViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2CAE5072187C82700432D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "徐浩宇";
+				TargetAttributes = {
+					D2CAE50E2187C82700432D27 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D2CAE5262187C82800432D27 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D2CAE50E2187C82700432D27;
+					};
+					D2CAE5312187C82800432D27 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D2CAE50E2187C82700432D27;
+					};
+				};
+			};
+			buildConfigurationList = D2CAE50A2187C82700432D27 /* Build configuration list for PBXProject "HYContrastView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2CAE5062187C82700432D27;
+			productRefGroup = D2CAE5102187C82700432D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2CAE50E2187C82700432D27 /* HYContrastView */,
+				D2CAE5262187C82800432D27 /* HYContrastViewTests */,
+				D2CAE5312187C82800432D27 /* HYContrastViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2CAE50D2187C82700432D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CAE51F2187C82800432D27 /* LaunchScreen.storyboard in Resources */,
+				D2CAE51C2187C82800432D27 /* Assets.xcassets in Resources */,
+				D2CAE51A2187C82700432D27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CAE5252187C82800432D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CAE5302187C82800432D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2CAE50B2187C82700432D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CAE5172187C82700432D27 /* ViewController.m in Sources */,
+				D2CAE5222187C82800432D27 /* main.m in Sources */,
+				D2CAE5142187C82700432D27 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CAE5232187C82800432D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CAE52C2187C82800432D27 /* HYContrastViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CAE52E2187C82800432D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CAE5372187C82800432D27 /* HYContrastViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2CAE5292187C82800432D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CAE50E2187C82700432D27 /* HYContrastView */;
+			targetProxy = D2CAE5282187C82800432D27 /* PBXContainerItemProxy */;
+		};
+		D2CAE5342187C82800432D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CAE50E2187C82700432D27 /* HYContrastView */;
+			targetProxy = D2CAE5332187C82800432D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2CAE5182187C82700432D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2CAE5192187C82700432D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2CAE51D2187C82800432D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2CAE51E2187C82800432D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2CAE5392187C82800432D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2CAE53A2187C82800432D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2CAE53C2187C82800432D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53VRM8P8RX;
+				INFOPLIST_FILE = HYContrastView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuhaoyu.HYContrastView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2CAE53D2187C82800432D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53VRM8P8RX;
+				INFOPLIST_FILE = HYContrastView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuhaoyu.HYContrastView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2CAE53F2187C82800432D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53VRM8P8RX;
+				INFOPLIST_FILE = HYContrastViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuhaoyu.HYContrastViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYContrastView.app/HYContrastView";
+			};
+			name = Debug;
+		};
+		D2CAE5402187C82800432D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53VRM8P8RX;
+				INFOPLIST_FILE = HYContrastViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuhaoyu.HYContrastViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYContrastView.app/HYContrastView";
+			};
+			name = Release;
+		};
+		D2CAE5422187C82800432D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53VRM8P8RX;
+				INFOPLIST_FILE = HYContrastViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuhaoyu.HYContrastViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYContrastView;
+			};
+			name = Debug;
+		};
+		D2CAE5432187C82800432D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53VRM8P8RX;
+				INFOPLIST_FILE = HYContrastViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuhaoyu.HYContrastViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYContrastView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2CAE50A2187C82700432D27 /* Build configuration list for PBXProject "HYContrastView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CAE5392187C82800432D27 /* Debug */,
+				D2CAE53A2187C82800432D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CAE53B2187C82800432D27 /* Build configuration list for PBXNativeTarget "HYContrastView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CAE53C2187C82800432D27 /* Debug */,
+				D2CAE53D2187C82800432D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CAE53E2187C82800432D27 /* Build configuration list for PBXNativeTarget "HYContrastViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CAE53F2187C82800432D27 /* Debug */,
+				D2CAE5402187C82800432D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CAE5412187C82800432D27 /* Build configuration list for PBXNativeTarget "HYContrastViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CAE5422187C82800432D27 /* Debug */,
+				D2CAE5432187C82800432D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2CAE5072187C82700432D27 /* Project object */;
+}
